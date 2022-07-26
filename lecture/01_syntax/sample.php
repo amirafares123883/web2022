@@ -61,13 +61,52 @@
  //$float=floatval($str);
  //var_dump($float);
 
- echo strlen("Hello world!").'<br>';
- echo str_word_count("Hello world!").'<br>';
- echo strrev("Hello world!").'<br>';
- echo str_replace("world","Dolly","Hello world!").'<br>';
- echo substr("Hello world!",4.7).'<br>';
- $str="Hello world!,hh".'<br>';
- echo substr($str,0,strpos("$str",'!')+1);
+// echo strlen("Hello world!").'<br>';
+ //echo str_word_count("Hello world!").'<br>';
+ //echo strrev("Hello world!").'<br>';
+ //echo str_replace("world","Dolly","Hello world!").'<br>';
+ //echo substr("Hello world!",4.7).'<br>';
+ //$str="Hello world!,hh".'<br>';
+ //echo substr($str,0,strpos("$str",'!')+1);
+
+$x=5;
+$x=$x+2;
+echo $x."<br>";
+$x+=2;
+echo $x."<br>";
+
+ $var=2;
+ $var=$var+1;
+ echo $var."<br>";
+ $var++;
+ echo $var ."<br>";
+++$var;
+echo $var ."<br>";
+
+$v1=2;
+//$res =($v1+1)*2-1;
+$res=$v1++*2-1;
+echo $res ."<br>";
+
+$v2 =2;
+$r = $v2++*2-1+$v2;
+echo $r ."<br>";
+
+
+
+$salary=2000;
+$tax=5;
+$s = $salary -(($tax/100)*$salary);
+echo $s ."<br>";
+
+$x=2;
+$x=$x*2;
+$x*=2;
+echo $x."<br>";
+$x+=2;
+echo $x;
+
+
 
 //concatination
 
