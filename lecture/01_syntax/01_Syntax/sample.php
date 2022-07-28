@@ -69,45 +69,76 @@
  //$str="Hello world!,hh".'<br>';
  //echo substr($str,0,strpos("$str",'!')+1);
 
-$x=5;
-$x=$x+2;
-echo $x."<br>";
-$x+=2;
-echo $x."<br>";
+// $x=5;
+// $x=$x+2;
+// echo $x."<br>";
+// $x+=2;
+// echo $x."<br>";
 
- $var=2;
- $var=$var+1;
- echo $var."<br>";
- $var++;
- echo $var ."<br>";
-++$var;
-echo $var ."<br>";
+//  $var=2;
+//  $var=$var+1;
+//  echo $var."<br>";
+//  $var++;
+//  echo $var ."<br>";
+// ++$var;
+// echo $var ."<br>";
 
-$v1=2;
-//$res =($v1+1)*2-1;
-$res=$v1++*2-1;
-echo $res ."<br>";
+// $v1=2;
+// //$res =($v1+1)*2-1;
+// $res=$v1++*2-1;
+// echo $res ."<br>";
 
-$v2 =2;
-$r = $v2++*2-1+$v2;
-echo $r ."<br>";
+// $v2 =2;
+// $r = $v2++*2-1+$v2;
+// echo $r ."<br>";
 
 
 
-$salary=2000;
-$tax=5;
-$s = $salary -(($tax/100)*$salary);
-echo $s ."<br>";
+// $salary=2000;
+// $tax=5;
+// $s = $salary -(($tax/100)*$salary);
+// echo $s ."<br>";
 
-$x=2;
-$x=$x*2;
-$x*=2;
-echo $x."<br>";
-$x+=2;
-echo $x;
+// $x=2;
+// $x=$x*2;
+// $x*=2;
+// echo $x."<br>";
+// $x+=2;
+// echo $x;
 
 
 
 //concatination
 
  ?>
+<?php
+// $arr = array ('amira','99','2');
+// echo $arr[0]."<br>";
+
+// ;
+
+// $cars =array(
+//     array('volvo',20),
+//     array('Bmw',19),
+//     array('land',18),
+
+// );
+
+// echo $cars[0][0].":in stock :".$cars[0][1].",sold:" ;
+// echo $cars[1][0].":in stock :".$cars[1][1].",sold:" ;
+// echo $cars[2][0].":in stock :".$cars[2][1].",sold:" ;
+
+// $age =array("peter"=>"35","ben"=>"37");
+// echo "peter is".$age["peter"]."<br>";
+
+
+$array = array ('amira','wessam','fares');
+sort($array);
+print_r($array)."<br>";
+
+
+$array = array ('amira','wessam','fares');
+resort($array);
+print_r($array)."<br>";
+
+?>
