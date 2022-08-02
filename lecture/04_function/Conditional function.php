@@ -13,9 +13,13 @@ switch ($t){
     case 10 :
         echo " Have a good day!"; 
         break;
-        case 5 :
-            echo " Have a good night!"; 
-      break;        
+    case 5 :
+        echo " Have a good night!"; 
+        break;  
+   default:  
+       echo " Have a bad day!"; 
+
+
 }
 
 ?>
